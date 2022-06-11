@@ -278,28 +278,19 @@ function exercise1(num1) {
     // --------------------------------------------
     // Write your code for the exercise below here:
     // --------------------------------------------
-    switch(num10 % 3) {
-        case 0: 
+    switch(true) {
+        case num10 % 3 === 0: 
           answer10 = 'Fizz';
           break;
-        default: 
-           answer10 = num10;
-      }
-      switch(num10 % 5) {
-        case 0:
-         answer10 = 'Buzz';
-          break; 
-        default:
-          answer10 = num10
-      }
-      switch(num10 % 15) {
-        case 0:
-          answer10 = "Fizz Buzz";
+        case num10 % 5 === 0:
+          answer10 = 'Buzz'; 
+          break;
+        case num10 % 15 === 0: 
+          answer10 = 'Fizz Buzz'; 
           break; 
         default: 
           answer10 = num10
-       
-        }
+      }
     // --------------------------------------------
     // And above here
     // --------------------------------------------
