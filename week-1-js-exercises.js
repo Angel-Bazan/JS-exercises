@@ -123,7 +123,7 @@ const myAnswerForExercise20 = "Boolean";
 const myAnswerForExercise21 = "Boolean";
 
 // Exercise 22 What is the value of 2 < 1 < 3
-const myAnswerForExercise22 = "Undefined";
+const myAnswerForExercise22 = "Boolean";
 
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
