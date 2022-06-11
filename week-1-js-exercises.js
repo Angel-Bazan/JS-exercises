@@ -128,7 +128,7 @@ const myAnswerForExercise22 = "Undefined";
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//I found this neither easy or hard, for some I didn't use any resource but as I continued I needed to use resources to solve some. I used google as a resource which led to stackoverflow and reading more about things in MDN
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
