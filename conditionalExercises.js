@@ -254,6 +254,7 @@ function exercise1(num1) {
              break; 
          case Number:
              answer9 = "Thanks for that!";
+             break;
         default: 
             answer9 = `Please send a number, that was a ${typeof item}`
   }
@@ -262,7 +263,12 @@ function exercise1(num1) {
     // --------------------------------------------
     return answer9;
   }
-  
+  console.log(exercise9(1)) 
+console.log(exercise9(7)) 
+console.log(exercise9(101)) 
+console.log(exercise9(1000000)) 
+console.log(exercise9(8)) 
+console.log(exercise9("hello")) 
   // EXERCISE 10.
   // This question is a modified version of a classic programming question
   // called "Fizz Buzz"
@@ -279,14 +285,14 @@ function exercise1(num1) {
     // Write your code for the exercise below here:
     // --------------------------------------------
     switch(true) {
-        case num10 % 3 === 0: 
-          answer10 = 'Fizz';
+        case num10 % 15 === 0: 
+          answer10 = 'Fizz Buzz';
           break;
         case num10 % 5 === 0:
           answer10 = 'Buzz'; 
           break;
-        case num10 % 15 === 0: 
-          answer10 = 'Fizz Buzz'; 
+        case num10 % 3 === 0: 
+          answer10 = 'Fizz'; 
           break; 
         default: 
           answer10 = num10
@@ -296,7 +302,10 @@ function exercise1(num1) {
     // --------------------------------------------
     return answer10;
   }
-  
+  console.log(exercise10(15))
+  console.log(exercise10(3))
+  console.log(exercise10(9))
+  console.log(exercise10(25))
   // Congrats, you made it to the end! You rock!
   // Did you find this easy or hard? If you used references, which ones helped you?
   // Please answer in a comment below.
