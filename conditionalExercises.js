@@ -247,7 +247,7 @@ function exercise1(num1) {
              answer9 = "You are lucky!"; 
              break; 
          case 101: 
-             answer9 = "Welcome to coding 101!";
+             answer9 = "Welcome to coding 10!";
              break;
          case 1000000:
              answer9 = "You are one in a million";
