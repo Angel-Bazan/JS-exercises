@@ -32,10 +32,7 @@ console.log(getName())
 // Then print your greeting to the console by calling logGreeting2().
 
 function logGreeting2(){
-    function myName(){
-        return "Angel Sanchez";
-    }
-    return `Hello! My name is ${myName()}`;
+    return `Hello! My name is ${getName()}`;
 }
 console.log(logGreeting2())
 
