@@ -6,6 +6,7 @@
 // same. The variables will be defined for you, you just have to plug in the
 // logic.
 
+
 // For example, if asked for exercise 0 to assign the value of myAnswer to the sum
 // of num1 and num2, and were given this construct:
 
