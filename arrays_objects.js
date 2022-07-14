@@ -82,7 +82,7 @@ console.log(me['favoriteAnimal']);
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//I found arrays and objects easier than previous exercise, I used the MDN resource and FreeCodeCamp objects and arrays reading 
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
